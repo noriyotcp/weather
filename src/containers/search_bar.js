@@ -32,7 +32,8 @@ class SearchBar extends Component {
           className="form-control"
           value={this.state.term}
           // onChange={this.onInputChange}
-          onChange={(e) => this.onInputChange(e)} />
+          onChange={(e) => this.onInputChange(e)}
+          autoFocus={focus} />
         <span className="input-group-btn">
           <button type="submit" className="btn btn-secondary">Submit</button>
         </span>
